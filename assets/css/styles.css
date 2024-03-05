@@ -42,6 +42,16 @@ header{
     color: black;
 }
 
+.menu-link:hover{
+    color: orange;
+    border-bottom: 2px orange solid;
+}
+
+.menu-link:active{
+    border-bottom: 2px orange solid;
+    color: orange;
+}
+
 .menu > ul{
     text-align: center;
     
@@ -62,7 +72,7 @@ header{
 .menu button{
     right: 40px;
     margin-right: 40px;
-    height: 40px;
+    height: 45px;
     width: 100px;
     border-radius: 10px;
     background-color: #fced69;
@@ -72,9 +82,18 @@ header{
 
 .menu .laranja{
     background-color: orange;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
     border: none;
     color: white;
     font-weight: 400;
+}
+
+.laranja:hover{
+    background-color: white;
+    color: orange;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
 }
 
 .imagem img{
@@ -94,5 +113,79 @@ header{
 
 .texto h1{
     color: black;
-    font-family: "Concert One", sans-serif;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+}
+
+.botao{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+.botao > button{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 4px black solid;
+    background-color: orange;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: white;
+    color: orange;
+}
+
+.botao2{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;  
+}
+
+.botao2 .play{
+    width: 500px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: orange;
+    border: none;
+    border-bottom: 5px black solid;
+}
+
+.botao2 .play .imagem1{
+    position: absolute;
+    width: 50px;
+    left: 30px;
+    bottom: 35px;
+}
+.botao2 .play .imagem2{
+    position: absolute;
+    left: 85px;
+    bottom: -50px;
+    width: 400px;
+    height: 200px;
+}
+
+footer{
+    background-color: #fced69;
+    padding-left: 50px;
+    padding: 50px;
+}
+
+footer > h2{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+footer img{
+    width: 45px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 30px;
+    padding: 8px;
 }
